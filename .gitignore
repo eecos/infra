@@ -20,3 +20,15 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+### macOS ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.lock
+rebel.xml
+.fastRequest
