@@ -10,13 +10,18 @@ services:
     privileged: true
     # 重启策略
     restart: on-failure
+    ulimits:
+      nproc: 65536
+      nofile:
+        soft: 65536
+        hard: 65536
     # 端口映射
     ports:
-      # web服务使用
+      # nexus_website
       - "8081:8081"
-      # http仓库使用
+      # nexus_docker_group
       - "8082:8082"
-      # https仓库使用
+      # nexus_docker_hosted
       - "200:200"
     # 挂载数据卷
     volumes:

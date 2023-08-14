@@ -32,3 +32,9 @@ TestResults.xml
 *.lock
 rebel.xml
 .fastRequest
+
+!compose/nginx/conf/conf.d/img.tingxuansh.ssl.conf
+!compose/nginx/conf/conf.d/repo.tingxuansh.ssl.conf
+!compose/nginx/conf/conf.d/nexus.conf
+!compose/nginx/cert
+
