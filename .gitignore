@@ -33,8 +33,9 @@ TestResults.xml
 rebel.xml
 .fastRequest
 
-!compose/nginx/conf/conf.d/img.tingxuansh.ssl.conf
-!compose/nginx/conf/conf.d/repo.tingxuansh.ssl.conf
-!compose/nginx/conf/conf.d/nexus.conf
-!compose/nginx/cert
+### 这些文件不进行提交
+/compose/nginx/conf/conf.d/img.tingxuansh.ssl.conf
+/compose/nginx/conf/conf.d/repo.tingxuansh.ssl.conf
+/compose/nginx/conf/conf.d/nexus.conf
+/compose/nginx/cert
 
