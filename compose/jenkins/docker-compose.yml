@@ -1,0 +1,35 @@
+version: '3.9'
+services:
+  jenkins:
+    user: root
+    restart: always
+    image: ${JENKINS_IMAGE}
+    container_name: jenkins
+    networks:
+      - jenkins
+    ports:
+      - 10000:8080
+      - 50000:50000
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=en_US.UTF-8
+      - JAVA_OPTS=-Dsun.jnu.encoding=UTF-8 -Dfile.encoding=UTF-8
+    volumes:
+      - ${JENKINS_WAR_PATH}:/usr/share/jenkins/jenkins.war
+      - ${JENKINS_LOCAL_HOME}:/var/jenkins_home
+      - ${LOCALTIME}:/etc/localtime
+      - ${HOST_DOCKER_SOCK}:/var/run/docker.sock
+      - ${DOCKER_COMMAND}:/usr/bin/docker
+      - ${DOCKER_COMPOSE_HOME}:/usr/local/bin/docker-compose
+      - ${DAEMON_HOME}:/etc/docker/daemon.json
+      - ${SSH_FILE}:/var/jenkins_home/.ssh
+      - ${SSH_FILE}:/root/.ssh
+      - ${JDK8_HOME}:/opt/jdk8
+      - ${MAVEN_HOME}:/opt/maven
+      - ${MAVEN_REPOSITORY}:/data/m2/repository
+      - ${NODE_HOME}:/opt/nodejs
+
+networks:
+  jenkins:
+    name: jenkins
+    driver: bridge
