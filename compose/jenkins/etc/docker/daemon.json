@@ -1,6 +1,7 @@
 {
+  "insecure-registries": ["172.24.79.231:200","172.24.79.231:8082"],
   "data-root": "/data/docker",
-  "registry-mirrors": ["https://65h3trr9.mirror.aliyuncs.com"],
+  "registry-mirrors": ["https://4soh7thm.mirror.aliyuncs.com","https://img.tingxuansh.net"],
   "log-driver":"json-file",
   "log-opts":{ "max-size" :"50m","max-file":"3"}
 }

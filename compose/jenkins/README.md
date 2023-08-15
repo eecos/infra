@@ -1,4 +1,13 @@
 
+## 前期准备
+
+- 安装JDK
+- 安装maven
+- 安装node
+- 安装docker
+- 配置docker api
+- 配置.ssh
+
 ## 细节配置
 ![1](https://raw.githubusercontent.com/eecos/images/master/img/202308151846908.png)
 
