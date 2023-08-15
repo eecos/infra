@@ -1,15 +1,15 @@
 
 ## 细节配置
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151846908.png)
+![1](https://raw.githubusercontent.com/eecos/images/master/img/202308151846908.png)
 
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151849831.png)
+![2](https://raw.githubusercontent.com/eecos/images/master/img/202308151849831.png)
 
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151850271.png)
+![3](https://raw.githubusercontent.com/eecos/images/master/img/202308151850271.png)
 
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151852119.png)
+![4](https://raw.githubusercontent.com/eecos/images/master/img/202308151852119.png)
 
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151852884.png)
+![5](https://raw.githubusercontent.com/eecos/images/master/img/202308151852884.png)
 
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151853888.png)
+![6](https://raw.githubusercontent.com/eecos/images/master/img/202308151853888.png)
 
-![](https://raw.githubusercontent.com/eecos/images/master/img/202308151855578.png)
+![7](https://raw.githubusercontent.com/eecos/images/master/img/202308151855578.png)
